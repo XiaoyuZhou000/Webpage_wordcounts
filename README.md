@@ -76,7 +76,9 @@ When run-anaylsis finishes, it should exit with a return code of 0.
 Since the course page is relatively small, you should be able to debug your scripts by working with the actual pages for this year. However, it will be useful to set up a test case for error checking. For example:
 
 $ echo https://courses.cs.washington.edu/courses/cse374/22wi/assignments/hw0.html > testurls
+    
 $ echo https://courses.cs.washington.edu/notaurl >> testurls
+    
 $ ./runanalysis dataout testurls
   Performing word count measurement on https://courses.cs.washington.edu/courses/cse374/22wi/assignments/hw0.html...
   650
