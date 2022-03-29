@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# Author: Xiaoyu Zhou
+# Date: 2022/02/11
+# UWNetID: xz081302
+# Homework 4: Part 3
+# This script will count the number of words of every file link in the given input file.
+
+# If there is not enough argument, print an error message.
+if [ $# -lt 2 ] ;
+then
+	echo "$0 error: no enough input file" 1>&2
+	exit 1
+fi
+
+# If the output file exists, the file will be overwrited with new output.
+if [ -f $1 ] ;
+then
+	echo "$0 warning: $1 will be overwrited with new output" 1>&2
+	truncate -s 0 $1
+fi
+
+hwIndex=0;
+# Read the given file line by line.
+while read LINE;
+do
+	result=0;
+	echo "Performing word count measurement on $LINE..."
+	result=$(measurepage $LINE)
+	if [ $result -eq 0 ] ;
+	then
+		echo "...failure"
+	else	
+		echo "...successful"
+		echo "$hwIndex $result" >>$1
+	fi
+	echo $result
+	hwIndex=$(( $hwIndex + 1 ))
+done < $2

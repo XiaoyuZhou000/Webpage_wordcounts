@@ -1,0 +1,158 @@
+Script started on 2022-02-11 21:22:05-08:00
+]777;notify;Command completed;exit]0;zxy@localhost:~/HW4]7;file://localhost.localdomain/home/zxy/HW4[zxy@localhost HW4]$ exitscatterplot.R./runanalysis dataout pagelist
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmeasurepage http://courses.cs.washington.edu/courses/cse374/
+/22wi/assignments/hw1.html[Awget https://courses.cs.washington.edu/courses/cse374/22wi/ass[6Pignments/index.html[A[Cecho $PATH[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CUSERxport PATH=".:$PATH"
+]777;notify;Command completed;export PATH=".:$PATH"]0;zxy@localhost:~/HW4]7;file://localhost.localdomain/home/zxy/HW4[zxy@localhost HW4]$ export PATH=".:$PATH"it[Kscatterplot.R./runanalysis dataout pagelist
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmeasurepage http://courses.cs.washington.edu/courses/cse374/
+/22wi/assignments/hw1.html[Awget https://courses.cs.washington.edu/courses/cse374/22wi/ass[6Pignments/index.html[A[Cecho $PATH[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CUSER
+zxy
+]777;notify;Command completed;echo $USER]0;zxy@localhost:~/HW4]7;file://localhost.localdomain/home/zxy/HW4[zxy@localhost HW4]$ echo $USERNAME
+zxy
+]777;notify;Command completed;echo $USERNAME]0;zxy@localhost:~/HW4]7;file://localhost.localdomain/home/zxy/HW4[zxy@localhost HW4]$ echo $PATH
+.:/usr/lib/java/apache-ant-1.10.8/bin:.:./:/home/zxy/HW4:/home/zxy/bin:/usr/lib/java/apache-ant-1.10.8/bin:/home/zxy/.local/bin:/home/zxy/bin:/usr/share/Modules/bin:/usr/lib/java/apache-ant-1.10.8/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin
+]777;notify;Command completed;echo $PATH]0;zxy@localhost:~/HW4]7;file://localhost.localdomain/home/zxy/HW4[zxy@localhost HW4]$ wget https://courses.cs.washington.edu/courses/cse374/22wi/as 
+signments/indx.[K[Kex.html
+--2022-02-11 21:24:16--  https://courses.cs.washington.edu/courses/cse374/22wi/assignments/index.html
+Resolving courses.cs.washington.edu (courses.cs.washington.edu)... 128.208.1.193, 2607:4000:200:10::c1
+Connecting to courses.cs.washington.edu (courses.cs.washington.edu)|128.208.1.193|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5578 (5.4K) [text/html]
+Saving to: ‘index.html.2’
+
+
+index.html.2           0%[                     ]       0  --.-KB/s               
+index.html.2         100%[====================>]   5.45K  --.-KB/s    in 0s      
+
+2022-02-11 21:24:17 (121 MB/s) - ‘index.html.2’ saved [5578/5578]
+
+]777;notify;Command completed;wget https://courses.cs.washington.edu/courses/cse374/22wi/assignments/index.html]0;zxy@localhost:~/HW4]7;file://localhost.localdomain/home/zxy/HW4[zxy@localhost HW4]$ wget https://courses.cs.washington.edu/courses/cse374/22wi/ass
+signments/index.html[A[Cecho $PATH[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CUSERNAME[Kxport PATH=".:$PATH"it[Kscatterplot.R./runanalysis dataout pagelist
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmeasurepage http://courses.cs.washington.edu/courses/cse374/
+/22wi/assignments/hw1.html[Awget https://courses.cs.washington.edu/courses/cse374/22wi/ass[6Pignments/index.html[A[Cecho $PATH[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CUSERPATHwget https://courses.cs.washington.edu/courses/cse374/22wi/ass
+signments/index.html[A[C./measurepage http://courses.cs.washington.edu/courses/cse374/22wi/assignments/hw1.html[A[31Prunanalysis dataout pagelist
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmeasurepage http://courses.cs.washington.edu/courses/cse374/
+/22wi/assignments/hw1.html[Awget https://courses.cs.washington.edu/courses/cse374/22wi/ass[6Pignments/index.html[A[Cecho $PATH[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwget https://courses.cs.washington.edu/courses/cse374/22wi/ass
+signments/index.html[A[C./measurepage http://courses.cs.washington.edu/courses/cse374/22wi/assignments/hw1.html[A[31Prunanalysis dataout pagelist
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pscatterplot.Rexit[Kport PATH=".:$PATH"[11Pcho $USERNAME[4PPATHwget https://courses.cs.washington.edu/courses/cse374/22wi/ass
+signments/index.html[A[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./getpages index.html
+./getpages error: no enough input file
+]777;notify;Command completed;./getpages index.html]0;zxy@localhost:~/HW4]7;file://localhost.localdomain/home/zxy/HW4[zxy@localhost HW4]$ ./getpages index.html[C[C index.html[C index.html[1@p[1@a[1@g[1@e[1@l[1@i[1@s[1@t
+./getpages warning: pagelist will be overwrited with new output
+]777;notify;Command completed;./getpages pagelist  index.html]0;zxy@localhost:~/HW4]7;file://localhost.localdomain/home/zxy/HW4[zxy@localhost HW4]$ ./getpages pagelist  index.html[1Pindex.html
+./getpages warning: pagelist will be overwrited with new output
+]777;notify;Command completed;./getpages pagelist index.html]0;zxy@localhost:~/HW4]7;file://localhost.localdomain/home/zxy/HW4[zxy@localhost HW4]$ ./getpages pagelist index.html index.html[10Pindex.htmlwget https://courses.cs.washington.edu/courses/cse374/22wi/ass
+signments/index.html[A[Cecho $PATH[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CUSERNAME[Kxport PATH=".:$PATH"it[Kscatterplot.R./runanalysis dataout pagelist
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmeasurepage http://courses.cs.washington.edu/courses/cse374/
+/22wi/assignments/hw1.html[Awget https://courses.cs.washington.edu/courses/cse374/22wi/ass[6Pignments/index.html[A[C./measurepage http://courses.cs.washington.edu/courses/cse374/22wi/assignments/hw1.html[A[31Prunanalysis dataout pagelist
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmeasurepage http://courses.cs.washington.edu/courses/cse374/
+/22wi/assignments/hw1.html[Awget https://courses.cs.washington.edu/courses/cse374/22wi/ass[6Pignments/index.html[A[C./measurepage http://courses.cs.washington.edu/courses/cse374/22wi/assignments/hw1.html
+1304
+]777;notify;Command completed;./measurepage http://courses.cs.washington.edu/courses/cse374/22wi/assignments/hw1.html]0;zxy@localhost:~/HW4]7;file://localhost.localdomain/home/zxy/HW4[zxy@localhost HW4]$ ./measurepage http://courses.cs.washington.edu/courses/cse374/
+/22wi/assignments/hw1.html[A[31Pgetpages pagelist index.html
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C index.html[10Pindex.htmlwget https://courses.cs.washington.edu/courses/cse374/22wi/ass
+signments/index.html[A[Cecho $PATH[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CUSERNAME[Kxport PATH=".:$PATH"it[Kscatterplot.R./runanalysis dataout pagelist
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmeasurepage http://courses.cs.washington.edu/courses/cse374/
+/22wi/assignments/hw1.html[A[31Prunanalysis dataout pagelist
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pagelist[1Pgelist[1Pelist[1Plist[1Pist[1Pst[1Pt[Ktesturls
+./runanalysis warning: dataout will be overwrited with new output
+Performing word count measurement on http://courses.cs.washington.edu/courses/cse374/22wi/assignments/hw0.html...
+...successful
+646
+Performing word count measurement on https://courses.cs.washington.edu/notaur1...
+...failure
+0
+]777;notify;Command completed;./runanalysis dataout testurls]0;zxy@localhost:~/HW4]7;file://localhost.localdomain/home/zxy/HW4[zxy@localhost HW4]$ ./runanalysis dataout testurls
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmeasurepage http://courses.cs.washington.edu/courses/cse374/
+/22wi/assignments/hw1.html[A[31Pgetpages pagelist index.html
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C index.html[10Pindex.htmlwget https://courses.cs.washington.edu/courses/cse374/22wi/ass
+signments/index.html[A[Cecho $PATH[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CUSERNAME[Kxport PATH=".:$PATH"it[Kscatterplot.R./runanalysis dataout pagelist
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmeasurepage http://courses.cs.washington.edu/courses/cse374/
+/22wi/assignments/hw1.html[Awget https://courses.cs.washington.edu/courses/cse374/22wi/ass[6Pignments/index.html[A[C./measurepage http://courses.cs.washington.edu/courses/cse374/22wi/assignments/hw1.html[A[31Prunanalysis dataout pagelist
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+./runanalysis warning: dataout will be overwrited with new output
+Performing word count measurement on https://courses.cs.washington.edu/courses/cse374/22wi/assignments/hw0.html...
+...successful
+646
+Performing word count measurement on https://courses.cs.washington.edu/courses/cse374/22wi/assignments/hw1.html...
+...successful
+1304
+Performing word count measurement on https://courses.cs.washington.edu/courses/cse374/22wi/assignments/hw2.html...
+...successful
+1401
+Performing word count measurement on https://courses.cs.washington.edu/courses/cse374/22wi/assignments/hw3a.html...
+...successful
+2464
+Performing word count measurement on https://courses.cs.washington.edu/courses/cse374/22wi/assignments/hw4a.html...
+...successful
+2649
+Performing word count measurement on https://courses.cs.washington.edu/courses/cse374/22wi/assignments/hw5.html...
+...successful
+3609
+Performing word count measurement on https://courses.cs.washington.edu/courses/cse374/22wi/assignments/hw8.html...
+...successful
+722
+Performing word count measurement on https://courses.cs.washington.edu/courses/cse374/22wi/assignments/hw6.html...
+...successful
+8141
+Performing word count measurement on https://courses.cs.washington.edu/courses/cse374/22wi/assignments/hw7.html...
+...successful
+1173
+]777;notify;Command completed;./runanalysis dataout pagelist]0;zxy@localhost:~/HW4]7;file://localhost.localdomain/home/zxy/HW4[zxy@localhost HW4]$ ./runanalysis dataout pagelisttesturls
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmeasurepage http://courses.cs.washington.edu/courses/cse374/
+/22wi/assignments/hw1.html[A[31Pgetpages pagelist index.html
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C index.html[10Pindex.htmlwget https://courses.cs.washington.edu/courses/cse374/22wi/ass
+signments/index.html[A[Cecho $PATH[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CUSERNAME[Kxport PATH=".:$PATH"it[Kscatterplot.R./runanalysis dataout pagelist
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pscatterplot.R./runanalysis dataout pagelist
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pscatterplot.R
+[1] 0.02921887
+[1] 0.05898051
+[1] 0.06336786
+[1] 0.1114478
+[1] 0.1198155
+[1] 0.1632367
+[1] 0.03265638
+[1] 0.3682211
+[1] 0.05305532
+null device 
+          1 
+]777;notify;Command completed;scatterplot.R]0;zxy@localhost:~/HW4]7;file://localhost.localdomain/home/zxy/HW4[zxy@localhost HW4]$ exit
+exit
+
+Script done on 2022-02-11 21:32:20-08:00
+
+
+
+8. The trend for index size in the scatter plot is roughly increasing as the course index increases. It cannot conclude that the difficulties is related to the number of words. Because we did not have a obvious increasing difficulties on homework through Course1 to Course 4.
+
+9. The number the R script print out is the percentage of the words size for this particular Course# to the sum of words size for all Course#.

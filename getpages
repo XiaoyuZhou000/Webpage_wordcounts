@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# Author: Xiaoyu Zhou
+# Date: 2022/02/11
+# UWNetID: xz081302
+# Homework 4: Part 1
+# This script will get the homework page in the given link
+
+# If there is less than 2 arguments, print an error message.
+if [ $# -lt 2 ] ;
+then
+	echo "$0 error: no enough input file" 1>&2
+	exit 1
+fi
+
+# If the output file exists, overwrite it with new output.
+if [ -f $1 ] ;
+then
+	echo "$0 warning: $1 will be overwrited with new output" 1>&2
+	truncate -s 0 $1
+fi
+
+# If the input link is not valid, print an error message.
+if [ ! -f $2 ] ;
+then
+	echo "$0 error: $2 is not a valid input file" 1>&2
+	exit 1
+fi
+
+grep -Po 'a href="\K[^"]*' $2 >$1
+
+sed -i '/^hw[0-9]/!d' $1
+
+sed -i -e 's_.*_https://courses.cs.washington.edu/courses/cse374/22wi/assignments/&_' $1
+
+#sed -i '/hw[0-9]a/i http://courses.cs.washington.edu/courses/cse374/22wi/assignments/' $1
+
+#sed -i "s,hw[0-9]a.html,http://courses.cs.washington.edu/courses/cse374/22wi/assignments/hw[0-9]a.html,g" $1
+
+#hw[0-9]a.html,,g' $1
+
+exit 0
+	

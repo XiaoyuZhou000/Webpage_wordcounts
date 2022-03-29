@@ -1,0 +1,35 @@
+#!/bin/bash
+# Including wordcount
+
+# Author: Xiaoyu Zhou
+# Date: 2022/02/11
+# UWNetID: xz081302
+# Homework 4: Part 2
+# This script will count the number of words in the given file
+
+# If there is not enough input argument, print an error message.
+if [ $# -eq 0 ] ;
+then
+  echo "$0 error: no enough input argument." 1>&2
+  exit 1
+fi
+
+# If it the link is not valid, print an error message.
+if ! wget -q --method=HEAD $1 ;
+then
+	echo "0" 0>&2
+	exit 0
+fi
+
+TEMP=`mktemp` 
+#>&2>/dev/null
+wget -qO $TEMP $1 
+#>&2>/dev/null
+
+
+wordcount -w $TEMP 
+
+
+
+exit 0
+
